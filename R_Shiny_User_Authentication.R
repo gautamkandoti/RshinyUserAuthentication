@@ -109,28 +109,8 @@ shinyApp(ui,server)
 
 
 
-#################################
 
-# obs2 <- observe({
-#   req(input$ok)
-#   isolate({
-#     Username <- input$username
-#     Password <- input$password
-#   })
-#   Id.username <- which(my_username == Username)
-#   Id.password <- which(my_password == Password)
-#   if (length(Id.username) > 0 & length(Id.password) > 0) {
-#     if (Id.username == Id.password) {
-#       Logged <<- TRUE
-#       values$authenticated <- TRUE
-#       obs1$suspend()
-#       removeModal()
-#       
-#     } else {
-#       values$authenticated <- FALSE
-#     }     
-#   }
-# })
+
 
 
 
